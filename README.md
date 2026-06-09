@@ -1,73 +1,72 @@
-# 👋 Hi, I'm Abhijeet
+# Hi there, I'm Abhijeet! 👋
 
-**Full Stack Developer · B.Tech @ NIT Tiruchirappalli**
+<p align="left">
+  <a href="https://linkedin.com/in/your-linkedin" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:your-email@nitt.edu" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-I build production-grade web systems — from real-time applications to
-institutional infrastructure. Currently working at the Centre for Digital
-Infrastructure (CDI), NIT Trichy, where I design and deploy systems used
-by the entire institute.
+### 🚀 Full Stack Developer
+I'm a B.Tech student at **NIT Tiruchirappalli**, focused on building production-grade web systems — from secure authentication infrastructure to role-based workflow applications deployed on live servers.
+
+I enjoy working across the full stack: designing APIs, architecting auth flows, managing distributed state, and shipping real software that handles real users.
 
 ---
 
-## 🏗️ What I'm Building at CDI, NIT Trichy
+### 🛠️ Technical Toolbox
 
-### 🔐 NITT Auth Service — Centralized SSO Platform
-A production-ready authentication system serving as the single identity
-provider for all NIT Trichy web applications.
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | JavaScript (ES6+), Python, HTML5, CSS3 |
+| **Backend & Databases** | Node.js, Express, PostgreSQL, Prisma ORM, Redis |
+| **Frontend** | React, Vite, Tailwind CSS |
+| **DevOps & Security** | Docker, Nginx, JWT Architecture, OAuth 2.0, Helmet.js, Linux |
 
-- Passwordless OTP login via institutional @nitt.edu email
-- JWT access tokens (15 min) + refresh tokens (7 days) with rotation
+---
+
+### 💼 Work & Projects
+
+#### 🏛️ Full Stack Developer — Centre for Digital Infrastructure (CDI), NIT Trichy
+*Building and deploying campus-wide institutional infrastructure on live university servers.*
+
+**🔐 NITT Auth Service — Centralized SSO Platform**
+
+Architected an OAuth2-style single sign-on system serving as the identity provider for all NIT Trichy web applications.
+
+- Passwordless OTP login routed through institutional `@nitt.edu` email
+- HTTP-Only cookie architecture for XSS-safe token handling
+- JWT access tokens (15 min) + 7-day refresh token rotation
 - Redis-backed OTP storage and session management
-- HTTP-Only cookie architecture — XSS-safe token handling
-- OAuth2-style Authorization Code exchange flow for cross-domain SSO
-- Role detection from email patterns (Student, Faculty, HOD, Director...)
-- Docker + Nginx deployment on campus infrastructure
-- Audit logging, rate limiting, Helmet.js security headers
+- Dynamic role detection from email patterns (Student, Faculty, HOD, Director...)
+- Docker + Nginx deployment on campus infrastructure with audit logging and rate limiting
 
-**Stack:** Node.js · Express · PostgreSQL · Prisma · Redis · React · Vite · Docker · Nginx
+**🚪 NITT Gate Pass System — Visitor Management**
 
----
+Engineered a role-based gate pass and visitor management system for campus security.
 
-### 🚪 NITT Gate Pass System
-A role-based visitor and gate pass management system for campus security.
-
-- Multi-role workflow: Faculty → HOD → Security approval chain
-- QR code generation and scanning for entry/exit
+- Multi-tier approval workflow: Faculty → HOD → Security
+- QR code generation and scanning for entry/exit verification
 - Real-time status tracking via HTTP polling
-- Integrated with NITT Auth SSO for seamless login
-
-**Stack:** Node.js · Express · PostgreSQL · React · Tailwind CSS
+- Integrated with NITT Auth SSO for seamless login across systems
 
 ---
 
-## 💻 Tech Stack
+### 📈 GitHub Stats
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=abhijeetm-07&show_icons=true&theme=tokyonight&count_private=true" alt="Abhijeet's GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhijeetm-07&layout=compact&theme=tokyonight" alt="Top Languages" height="180" />
+</p>
 
 ---
 
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=abhijeetm-07&theme=dark&hide_border=false&include_all_commits=true&count_private=false)
-![](https://nirzak-streak-stats.vercel.app/?user=abhijeetm-07&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=abhijeetm-07&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+### 📫 Let's Connect!
+* 💼 **Looking for:** Software Engineering Internships / Full-Time Roles
+* ⚡ **Currently:** Deploying containerized systems via GitHub Actions CI/CD on campus infrastructure
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=abhijeetm-07&icon=0&color=0)](https://visitcount.itsvg.in)
+*Feel free to explore my repositories! Drop a ⭐ if you find something interesting.*
